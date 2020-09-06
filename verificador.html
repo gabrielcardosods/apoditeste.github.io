@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Remuneração</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href='apodi-icon.png'
+</head>
+<body>
+    <h1>
+        Simulador de Remuneração
+    </h1>
+    <section>
+        <div id='foto'>
+            <img src="apodi.png"  id='img'>
+        </div>
+        <div>
+            <fieldset><legend>Simulador</legend>
+                <p>
+                    Volume %:
+                    <p><input type="text" id="vol"></p>
+                </p>
+                <p>
+                    Positivação %:
+                    <p><input type="text" id="pos"></p>
+                </p>
+                <p>
+                    PLV %:
+                    <p><input type="text" id='plv'></p>
+                </p>
+                <p>
+                    <input type="button" id="botao" value="Calcular" onclick="Simular()">
+                </p>
+            </fieldset>                 
+         </div>
+         <div id="res">
+            <strong>Resultado</strong>
+         </div>
+    </section>
+    <footer>
+        <p>
+            &copy; CimentoApodi
+        </p>
+    </footer>
+    <script src="calcular.js"></script>
+</body>
+</html>

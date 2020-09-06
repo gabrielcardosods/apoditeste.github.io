@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(49, 124, 236);
+    font: 10pt Arial;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.37);
+}
+
+/* div {
+    color: black;
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 180px;
+    margin: auto;
+    border-style:  solid;
+    border-color: rgba(0, 0, 0, 0.288);
+    border-width: 1px;
+} */
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+input {
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.438);
+    text-align: center;
+    width: 100px;
+}
+
+input:hover{
+    background-color: rgba(141, 139, 139, 0.089);
+}
+
+div#foto {
+    text-align: center;
+}
+
+img#img {
+        padding: 10px;
+        max-width:150px;
+        max-height:150px;
+        width: auto;
+        height: auto;
+}
